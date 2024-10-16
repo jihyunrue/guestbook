@@ -10,3 +10,4 @@ public interface PostMapper {
 
 	void insert(Post post);
 }
+ 
