@@ -14,6 +14,6 @@ EXPOSE 8080
 VOLUME /app/upload
         
 WORKDIR $APP_HOME
-ENTRYPOINT ["java"]
+ENTRYPOINT ["java"]  
 CMD ["-jar", "guestbook.jar"]    
    
