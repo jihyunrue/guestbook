@@ -9,5 +9,5 @@ public interface PostMapper {
 	List<Post> selectAll();
 
 	void insert(Post post);
-}
+}    
  
