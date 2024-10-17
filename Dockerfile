@@ -15,4 +15,5 @@ VOLUME /app/upload
 
 WORKDIR $APP_HOME
 ENTRYPOINT ["java"]
-CMD ["-jar", "guestbook.jar"]
+CMD ["-jar", "guestbook.jar"]    
+   
